@@ -1,0 +1,18 @@
+{
+    "name": "cgeek/aliyun-php-sdk-jaq",
+    "description": "aliyun 阿里云滑块验证",
+    "authors": [
+        {
+            "name": "MiaoHuawu",
+            "email": "mhw@iwankeji.com"
+        }
+    ],
+    "require": {
+		"php": ">=5.5.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Aliyuncaptcha\\": "src/"
+		}
+	}
+}
