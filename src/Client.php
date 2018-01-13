@@ -28,7 +28,7 @@ class Client {
      * @time     17/11/22 下午4:09
      */
     public function verify ($csessionid, $token, $sig, $scene, $platform = 3) {
-        $request = new AfsCheckRequest();
+        $request = new \Jaq\Request\V20161123\AfsCheckRequest();
         $request->setSession ($csessionid); // 必填参数，从前端获取，不可更改
         $request->setToken ($token); // 必填参数，从前端获取，不可更改
         $request->setSig ($sig); // 必填参数，从前端获取，不可更改
