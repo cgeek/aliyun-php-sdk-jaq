@@ -7,8 +7,8 @@
             "email": "mhw@iwankeji.com"
         }
     ],
-	"version": "0.0.1",
-	"minimum-stability": "dev",
+	"version": "0.1",
+	"minimum-stability": "0.1",
     "require": {
 		"php": ">=5.5.0"
 	},
